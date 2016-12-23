@@ -24,8 +24,8 @@ module.exports = function(appPath, appName, verbose, originalDirectory) {
 
   // Setup the script rules
   appPackage.scripts = {
-    'start': 'react-scripts start',
-    'build': 'react-scripts build',
+    'start': 'react-scripts-with-sass start',
+    'build': 'react-scripts-with-sass build',
     'test': 'react-scripts test --env=jsdom',
     'eject': 'react-scripts eject'
   };
